@@ -2,10 +2,10 @@ package main
 
 import "testing"
 
-func testSum(t *testing.T) {
+func TestSum(t *testing.T) {
 	input1 := 20
 	input2 := 30
-	totalExpected := 50
+	totalExpected := 55
 
 	total := Sum(input1, input2)
 
