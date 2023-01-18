@@ -5,7 +5,7 @@ import "testing"
 func TestSum(t *testing.T) {
 	input1 := 20
 	input2 := 30
-	totalExpected := 55
+	totalExpected := 50
 
 	total := Sum(input1, input2)
 
